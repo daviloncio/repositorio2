@@ -1,6 +1,10 @@
+-- Database: p2_db
+
+-- DROP DATABASE IF EXISTS p2_db;
+
 export PGDATABASE:=movielens
 export PGUSER :=alumnodb
-export PGPASSWORD :=telecable08
+export PGPASSWORD :=alumnodb
 export PGHOST:=localhost
 
 all:
