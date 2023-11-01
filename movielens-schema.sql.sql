@@ -1,4 +1,18 @@
+-- Database: p2_db
 
+-- DROP DATABASE IF EXISTS p2_db;
+
+CREATE DATABASE p2_db
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Spanish_Spain.1252'
+    LC_CTYPE = 'Spanish_Spain.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+	
+	
 CREATE TYPE movie_status AS ENUM ('Canceled','In Production', 'Planned','Post Production','Released', 'Rumored');
 
 CREATE TABLE gender ( --id gender_id?

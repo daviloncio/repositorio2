@@ -1,6 +1,13 @@
+-- Database: p2_db
+
+-- DROP DATABASE IF EXISTS p2_db;
+
+	
+	
+
 
 COPY genres  -- nombre de la tabla
-FROM 'genres.csv' -- nombre del archivo 
+FROM 'C:/Users/juanj/Documents/3ercuatri/repositorio2/genres.csv' -- nombre del archivo 
 CSV HEADER
 DELIMITER ','
 QUOTE '"';
@@ -106,3 +113,5 @@ FROM 'gender.csv' -- nombre del archivo
 CSV HEADER
 DELIMITER ','
 QUOTE '"';
+
+
